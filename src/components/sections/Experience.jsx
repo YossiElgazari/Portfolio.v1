@@ -9,21 +9,23 @@ const timelineData = [
     date: 'October 2024 - Present',
     role: 'Full Stack Developer',
     company: 'IVTechLTD',
-    description: 'Part of a startup-focused company, leading development across several concurrent web and mobile projects.',
+    description: 'Part of a startup-focused company, leading development across web and mobile projects.',
     details: [
-      'Leading the development of multiple web and mobile projects in parallel, taking ownership of the full lifecycle from architecture to deployment.',
-      'Building full-stack solutions with scalable frontend logic and performant backend services, working with technologies such as React, React Native, Node.js, Python, MongoDB, PostgreSQL and SQLite.',
-      'Integrating third-party APIs and internal systems to support complex business workflows, while collaborating closely with cross-functional teams.'
+      'Architect, build and ship web and mobile products from concept to deployment, leading delivery and driving projects alongside the team.',
+      'Develop full-stack applications with React, React Native, Node.js and Python, backed by MongoDB, PostgreSQL and SQLite.',
+      'Design and deploy microservices with Docker, Kubernetes, AWS EC2 and Kafka for fast, scalable, event-driven systems.',
+      'Integrate third-party APIs and internal systems to power complex workflows across the platform.'
     ]
   },
   {
     date: 'August 2023 – October 2023',
     role: 'Backend Engineer Intern',
     company: 'Bridgify',
-    description: '',
+    description: 'Backend internship focused on API integrations and data handling in Python.',
     details: [
-      'Maintained backend systems using Python (Requests, Pandas) and integrated APIs.',
-      'Wrote clean, efficient, and well-documented code to enhance system functionality.'
+      'Developed and maintained backend systems in Python using Requests and Pandas.',
+      'Integrated third-party APIs and built data pipelines to process incoming data.',
+      'Wrote clean, well-documented code and debugged issues across the backend.'
     ]
   },
 ];
@@ -117,8 +119,9 @@ const Experience = () => {
   return (
     <section id="experience" className="relative py-8 md:py-12 xl:py-16">
       <div className="container mx-auto px-3 sm:px-6 lg:px-8 xl:px-12 2k:px-16 4k:px-24">
-        <h1 className="exp-heading text-headline2 font-bold text-white mb-12 md:mb-20 uppercase">
-          <span className="text-primary">{'//'}</span> Experience
+        <h1 className="exp-heading text-headline2 font-bold text-white mb-12 md:mb-20 uppercase flex items-center gap-4 md:gap-6">
+          <span className="whitespace-nowrap tracking-wide"><span className="text-primary">{'//'}</span> Experience</span>
+          <span aria-hidden="true" className="h-px flex-1 bg-gradient-to-r from-primary/50 via-darkgrey/40 to-transparent"></span>
         </h1>
         <div className="relative flex justify-center">
           {/* Top and Bottom Arrows */}

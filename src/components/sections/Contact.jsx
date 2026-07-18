@@ -105,8 +105,9 @@ const Contact = () => {
   return (
     <section id="contact" className="relative pt-8 md:pt-12 xl:pt-16">
       <div className="container mx-auto px-3 sm:px-6 lg:px-8 xl:px-12">
-        <h1 className="contact-heading text-headline2 font-bold text-white mb-4 md:mb-12 uppercase">
-          <span className="text-primary">{'//'}</span> Contact
+        <h1 className="contact-heading text-headline2 font-bold text-white mb-4 md:mb-12 uppercase flex items-center gap-4 md:gap-6">
+          <span className="whitespace-nowrap tracking-wide"><span className="text-primary">{'//'}</span> Contact</span>
+          <span aria-hidden="true" className="h-px flex-1 bg-gradient-to-r from-primary/50 via-darkgrey/40 to-transparent"></span>
         </h1>
         <div className="contact-text mx-auto max-w-5xl text-body2 font-light text-center text-lightgrey overflow-y-hidden">
           <h2 className='font-bold text-body1'>Let’s Connect!</h2>

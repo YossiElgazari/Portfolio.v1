@@ -135,8 +135,9 @@ const Projects = () => {
   return (
     <section id="projects" className="relative py-8 md:py-12 xl:py-16 bg-secondary">
       <div className="container mx-auto px-3 lg:px-8 xl:px-12 2k:px-16 4k:px-24">
-        <h1 className="projects-heading text-headline2 font-bold text-white mb-2 lg:mb-0 uppercase">
-          <span className="text-primary ">{'//'}</span> Projects
+        <h1 className="projects-heading text-headline2 font-bold text-white mb-2 lg:mb-0 uppercase flex items-center gap-4 md:gap-6">
+          <span className="whitespace-nowrap tracking-wide"><span className="text-primary">{'//'}</span> Projects</span>
+          <span aria-hidden="true" className="h-px flex-1 bg-gradient-to-r from-primary/50 via-darkgrey/40 to-transparent"></span>
         </h1>
         <div className="mt-4 lg:mt-8 space-y-10 md:space-y-20">
           {projects.slice(0, visibleProjects).map((project, index) => (
