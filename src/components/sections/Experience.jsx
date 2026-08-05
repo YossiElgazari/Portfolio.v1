@@ -8,25 +8,27 @@ const timelineData = [
   {
     date: 'October 2024 - Present',
     role: 'Full Stack Developer',
-    company: 'IVTechLTD',
-    description: 'Part of a startup-focused company, leading development across web and mobile projects.',
+    company: 'IVTech LTD',
+    description:
+      'Leading end-to-end development of web and mobile projects, from architecture and implementation through deployment and production support.',
     details: [
-      'Architect, build and ship web and mobile products from concept to deployment, leading delivery and driving projects alongside the team.',
-      'Develop full-stack applications with React, React Native, Node.js and Python, backed by MongoDB, PostgreSQL and SQLite.',
-      'Design and deploy microservices with Docker, Kubernetes, AWS EC2 and Kafka for fast, scalable, event-driven systems.',
-      'Integrate third-party APIs and internal systems to power complex workflows across the platform.'
-    ]
+      'Lead web and mobile projects, owning the software lifecycle from architecture and implementation through deployment and production support.',
+      'Build and maintain React and React Native applications, integrating third-party APIs and internal systems for complex business workflows.',
+      'Design scalable backend services and REST APIs with Node.js, TypeScript and Python, applying microservices and event-driven architecture.',
+      'Manage cloud and DevOps workflows across AWS, Docker, Kubernetes, CI/CD pipelines and multi-environment configurations.',
+      'Leverage Claude Code, GitHub Copilot and OpenAI Codex for codebase analysis, implementation, debugging, refactoring, testing and workflow automation.',
+    ],
   },
   {
-    date: 'August 2023 – October 2023',
-    role: 'Backend Engineer Intern',
+    date: 'August 2023 - October 2023',
+    role: 'Backend Developer Intern',
     company: 'Bridgify',
-    description: 'Backend internship focused on API integrations and data handling in Python.',
+    description:
+      'Backend internship focused on Python development and third-party API integrations.',
     details: [
-      'Developed and maintained backend systems in Python using Requests and Pandas.',
-      'Integrated third-party APIs and built data pipelines to process incoming data.',
-      'Wrote clean, well-documented code and debugged issues across the backend.'
-    ]
+      'Maintained Python backend systems using Requests and Pandas, with a focus on API integrations.',
+      'Wrote clean, efficient and well-documented code to enhance backend system functionality.',
+    ],
   },
 ];
 

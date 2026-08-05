@@ -2,7 +2,7 @@ import MyButton from './MyButton';
 
 const ResumeButton = () => {
   const openPDF = () => {
-    const url = '/Yossi Elgazari - SW Developer.pdf';
+    const url = '/Yossi_Elgazari_CV.pdf';
     const newWindow = window.open(url, '_blank');
 
     // If the browser blocks the popup, this will fail
